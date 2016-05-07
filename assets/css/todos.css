@@ -69,8 +69,14 @@ li:hover span {
   text-decoration: line-through;
 }
 
-.fa-plus {
+.fa-plus, .fa-times {
   float: right;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.fa-times {
+  color: #B92980;
 }
 
 #container {

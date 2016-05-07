@@ -26,3 +26,10 @@ $("input[type=text").on("keypress", function(event) {
 $(".fa-plus").on("click", function() {
   $("input[type=text]").fadeToggle();
 });
+
+// Removes all items from the list
+// And shows our todo input
+$(".fa-times").on("click", function() {
+  $("li").remove();
+  $("input[type=text]").fadeIn();
+});
